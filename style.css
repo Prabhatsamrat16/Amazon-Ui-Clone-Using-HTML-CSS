@@ -179,7 +179,6 @@ span {
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #e3f4f7;
-    
 }
 
 .box {
@@ -299,7 +298,7 @@ ul p {
 .foot-panel4{
     background-color: #131a22;
     color: #dddddd;
-    height: 80px;
+    height: 100px;
     text-align: center;
     font-size: 1rem;
 }
@@ -315,9 +314,16 @@ ul p {
 .more-panel {
     background-color: #131a22;
     height: 156px;
+    flex-direction: column;
     flex-wrap: wrap;
     color: white;
     display: flex;
+    justify-content: space-evenly;
+}
+
+.more-panel-flex{
+    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
 }
 
@@ -330,4 +336,13 @@ ul p {
     margin-top: 0%;
     color: #999999;
     font-size: 0.8rem;
+}
+
+.made-by{
+    margin: 10px 0px ;
+}
+
+.made-by a {
+    text-decoration: none;
+    color: skyblue;
 }
