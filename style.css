@@ -229,6 +229,10 @@ span {
     margin-bottom: 1rem;
 }
 
+.box-img:hover {
+    transform: scale(1.1);
+}
+
 .box-content {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -238,6 +242,11 @@ span {
 .box-content a {
     color: #007185;
     text-decoration: none;
+}
+
+.box-content a:hover {
+    background-color: none;
+    color: blue;
 }
 
 /** footer **/
